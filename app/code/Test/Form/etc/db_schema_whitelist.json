@@ -1,0 +1,14 @@
+{
+    "test_email": {
+        "column": {
+            "entity_id": true,
+            "email": true
+        },
+        "index": {
+            "TEST_EMAIL_ENTITY_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

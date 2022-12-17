@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Test_Form::management" sortOrder="100" title="Test Email Management" module="Test_Form"
+             parent="Magento_Backend::system" resource="Test_Form::management" translate="title"
+             action="test_email/testemail/index"/>
+    </menu>
+</config>
